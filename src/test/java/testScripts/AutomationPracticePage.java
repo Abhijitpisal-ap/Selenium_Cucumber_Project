@@ -27,7 +27,7 @@ public class AutomationPracticePage {
 	  // Select a book whose price is 2000
 	  WebElement book = driver.findElement(By.xpath("//td[contains(text(),'2000')]//preceding-sibling::td[3]"));						// syntax : // TagName[(text()= 'text to check']	exact text has to be given in value
 	  System.out.println("The book with price equal to 2000 is "+book.getText());
-	
+	  System.out.println("The book with price equal to 2000 is displayed");
 	  driver.quit();
   
   
